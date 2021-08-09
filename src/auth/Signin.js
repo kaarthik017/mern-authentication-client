@@ -11,7 +11,7 @@ const Signin = ({history}) => {
     const [values, setValues] = useState({
         email:'',
         password:'',
-        buttonText:'',
+        buttonText:'Submit',
     })
 
     const {email, password, buttonText} = values
